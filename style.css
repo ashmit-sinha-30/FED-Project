@@ -1,0 +1,243 @@
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    width: 90%;
+    height: 5rem;
+    background-color: rgb(33, 30, 30);
+    position: absolute;
+    right: 5%;
+    left: 5%;
+    top: 2rem;
+    border-radius: 1rem;
+    border: 2px dotted rgb(65, 36, 36);
+    display: flex;
+    align-items: center;
+    z-index: 5;
+    background:
+    linear-gradient(
+      rgba(40, 40, 40, 0.3),
+      rgba(40, 40, 40, 0.3)
+    );
+}
+
+.image{
+    position: relative;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-image: url(profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+    left: 2%;
+}
+
+.fed{
+    position: relative;
+    left: 4%;
+    font-size: 3rem;
+    font-weight: 500;
+}
+/*
+.navtool{
+    height: 3rem;
+}*/
+
+
+.text{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.signin{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: rgba(245,87,37,255);
+}
+
+.button1:hover{
+    cursor: pointer;
+}
+
+.navtool{
+    position: relative;
+    left: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.heroimg{
+    background-image: url(mac.jpg);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 46rem;
+    width: 50%;
+}
+
+.herotext{
+    background-color: black;
+    background-image: linear-gradient(to bottom,black 15rem,rgb(34, 32, 32),rgb(73, 37, 18));
+    height: 46rem;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+    left: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.lets{
+    position: absolute;
+    top: 12rem;
+    left: 3rem;
+    font-size: 5rem;
+}
+
+.connect{
+    position: absolute;
+    top: 18rem;
+    left: 3rem;
+    font-size: 5rem;
+}
+
+.you{
+    font-size: 2.75rem ;
+    position: absolute;
+}
+
+.you1{
+    left: 3rem;
+    top: 27rem;
+}
+
+.orange{
+    color: rgb(255, 94, 0);
+}
+
+.you2{
+    left: 3rem;
+    top: 31rem;
+}
+
+.you3{
+    left: 3rem;
+    top: 35rem;
+}
+
+.enroll{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(255, 94, 0);
+    position: absolute;
+    bottom: 2rem;
+    right: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 3rem 7rem rgba(0, 0, 0, 1);
+}
+
+/*footer*/
+
+.footer{
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    height: 30rem;
+    width: 100%;
+    background-color: black;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.821),
+      rgba(0, 0, 0, 0.836)
+    );
+    display: block;
+    justify-content: center;
+    z-index: 5;
+}
+
+.imagef{
+    position: relative;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-image: url(profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+}
+
+.fedf{
+    position: relative;
+    top: -0.5rem;
+    padding-left: 1rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.logo{
+    position: relative;
+    top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.togglef{
+    position: relative;
+    top: 7.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.space{
+    font-size: 1rem;
+    padding-left: 1.5rem;
+}
+
+.socialf{
+    display: flex;
+    justify-content: center;
+    padding-left: 1.5rem;
+}
+
+.circle{
+    background-color: rgb(255, 94, 0);
+    border-radius: 8rem;
+    font-size: 1.75rem;
+    padding: 0.25rem;
+    position: relative;
+    top: 10rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    border: none;
+}
+
+.linef{
+    width: 80%;
+    height: 0.1rem;
+    background-color: rgb(255, 94, 0);
+    position: absolute;
+    bottom: -23.5rem;
+    left: 10%;
+}
+
+.copyright{
+    position: absolute;
+    bottom: -27.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*herosection*/
