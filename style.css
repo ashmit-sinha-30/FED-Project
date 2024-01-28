@@ -8,11 +8,11 @@
 }
 
 .navbar{
+    position: fixed;
     width: 90%;
     height: 5rem;
     /*background-color: rgb(33, 30, 30);
     backdrop-filter: blur(10px);*/
-    position: absolute;
     right: 5%;
     left: 5%;
     top: 2rem;
@@ -20,7 +20,7 @@
     border: 0.05px solid rgb(136, 97, 123);
     display: flex;
     align-items: center;
-    z-index: 5;
+    z-index: 10;
     /*background:
     linear-gradient(
       rgba(40, 40, 40, 0.6),
@@ -40,16 +40,24 @@
 }
 
 .fed{
-    position: relative;
-    left: 4%;
+    margin-left: 1.2rem;
     font-size: 3rem;
     font-weight: 700;
+    text-decoration: none;
 }
 /*
 .navtool{
     height: 3rem;
 }*/
 
+.link{
+    display: flex;
+    position: relative;
+    border-radius: 2rem;
+    left: 2%;
+    align-items: center;
+    text-decoration: none;
+}
 
 .text{
     font-size: 1.5rem;
@@ -261,7 +269,7 @@
     font-size: 9rem;
     text-align: center;
     position: relative;
-    z-index: 10;
+    z-index: 7;
 }
 
 .endless{
@@ -269,7 +277,7 @@
     font-size: 3.5rem;
     text-align: center;
     position: relative;
-    z-index: 10;
+    z-index: 7;
 }
 
 .ball1{
