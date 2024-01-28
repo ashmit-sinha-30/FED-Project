@@ -10,21 +10,22 @@
 .navbar{
     width: 90%;
     height: 5rem;
-    background-color: rgb(33, 30, 30);
+    /*background-color: rgb(33, 30, 30);
+    backdrop-filter: blur(10px);*/
     position: absolute;
     right: 5%;
     left: 5%;
     top: 2rem;
     border-radius: 1rem;
-    border: 2px dotted rgb(65, 36, 36);
+    border: 0.05px solid rgb(136, 97, 123);
     display: flex;
     align-items: center;
     z-index: 5;
-    background:
+    /*background:
     linear-gradient(
-      rgba(40, 40, 40, 0.3),
-      rgba(40, 40, 40, 0.3)
-    );
+      rgba(40, 40, 40, 0.6),
+      rgba(40, 40, 40, 0.6)
+    );*/
 }
 
 .image{
@@ -42,7 +43,7 @@
     position: relative;
     left: 4%;
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 /*
 .navtool{
@@ -75,7 +76,7 @@
 }
 
 .heroimg{
-    background-image: url(mac.jpg);
+    background-image: url(FED/left.png);
     background-size: cover;
     top: 0;
     left: 0;
@@ -154,19 +155,17 @@
 /*footer*/
 
 .footer{
-    border-top-right-radius: 2rem;
-    border-top-left-radius: 2rem;
     height: 30rem;
-    width: 100%;
+    width: 99.9%;
     background-color: black;
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.821),
-      rgba(0, 0, 0, 0.836)
-    );
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top:1px solid rgba(136, 97, 123,0.4);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     display: block;
     justify-content: center;
-    z-index: 5;
+    /*background-image: linear-gradient(to bottom,black 15rem,rgb(34, 32, 32),rgb(73, 37, 18));*/
 }
 
 .imagef{
@@ -184,7 +183,7 @@
     top: -0.5rem;
     padding-left: 1rem;
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .logo{
@@ -229,15 +228,153 @@
     height: 0.1rem;
     background-color: rgb(255, 94, 0);
     position: absolute;
-    bottom: -23.5rem;
+    bottom: 8rem;
     left: 10%;
 }
 
 .copyright{
     position: absolute;
-    bottom: -27.5rem;
+    bottom: 4rem;
     left: 50%;
     transform: translateX(-50%);
 }
 
 /*herosection*/
+
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.herosec2{
+    height: 85rem;
+    width: 100%;
+    background-image: linear-gradient(to top,black 15rem,rgb(34, 32, 32),rgb(73, 37, 18));
+}
+
+.dive{
+    padding: 5rem;
+    font-size: 9rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.endless{
+    margin-top: -2rem;
+    font-size: 3.5rem;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.ball1{
+    background-image: url(FED/Ellipse\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 9rem;
+    width: 9rem;
+    position: relative;
+    top: -13rem;
+    left: 60rem;
+    z-index: 0;
+}
+
+.box1{
+    height: 28rem;
+    width: 20rem;
+    position: relative;
+    top: -22rem;
+    left: 66rem;
+    transform: rotate(-15deg);
+    z-index: 5;
+}
+
+.ball2{
+    background-image: url(FED/Ellipse\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 18rem;
+    width: 18rem;
+    position: relative;
+    z-index: 0;
+    top: -35rem;
+    left: 76rem;
+}
+
+.box2{
+
+    position: relative;
+    top: -46rem;
+    left: 20rem;
+    height: 26rem;
+    width: 41rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 5;
+    transform: rotate(-8deg);
+    /*background:
+    linear-gradient(
+      rgba(53, 53, 53, 0.8),
+      rgba(40, 40, 40, 0.8)
+    );   
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);*/
+}
+
+.ball3{
+    background-image: url(FED/Ellipse\ 12.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 16rem;
+    width: 16rem;
+    position: relative;
+    top: -59rem;
+    left: 52rem;
+}
+
+.text-box{
+    width: 18rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.inspire{
+    font-size: 3rem;
+    position: relative;
+    top: -3rem;
+}
+
+.lorem{
+    font-size: 1.25rem;
+    position: relative;
+    top: -1rem;
+}
+
+.lap{
+
+    background-image: url(FED/left.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23rem;
+    width: 18rem;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.ball4{
+    height: 20rem;
+    width: 20rem;
+    background-image: url(FED/Ellipse\ 3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -50rem;
+    right: -74.5rem;
+    z-index: 0;
+}
