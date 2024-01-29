@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
 .navbar{
     position: fixed;
     width: 90%;
@@ -20,7 +21,7 @@
     border: 0.05px solid rgb(136, 97, 123);
     display: flex;
     align-items: center;
-    z-index: 10;
+    z-index: 8;
     /*background:
     linear-gradient(
       rgba(40, 40, 40, 0.6),
@@ -83,13 +84,65 @@
     justify-content: space-evenly;
 }
 
-.heroimg{
+/*Carousel*/
+
+.carousel{
+    position: relative;
+}
+
+.content1{
     background-image: url(FED/left.png);
     background-size: cover;
+}
+
+.content2{
+    background-image: url(FED/content2.jpg);
+    background-size: cover;
+}
+
+.content3{
+    background-image: url(FED/content3.jpg);
+    background-size: cover;
+}
+
+.content4{
+    background-image: url(FED/content4.jpg);
+    background-size: cover;
+}
+
+.heroimg{
     top: 0;
     left: 0;
     height: 46rem;
     width: 50%;
+    display: none;
+}
+
+.carousel__item--selected {
+    display: block;
+}
+
+.carousel__nav {
+    width: 50%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: -15rem;
+    text-align: center;
+}
+  
+.carousel__button {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: rgba(227, 197, 197, 1);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+  
+.carousel__button--selected {
+    background: rgb(203, 85, 42);
 }
 
 .herotext{
@@ -385,4 +438,202 @@
     top: -50rem;
     right: -74.5rem;
     z-index: 0;
+}
+
+/*sign in*/
+
+.signinmodal{
+    height: 39rem;
+    width: 30%;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 24rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+}
+
+.s-head{
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 4.5rem;
+}
+
+.s-head2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: 5rem;
+}
+
+.close-modal{
+    position: absolute;
+    font-size: 3rem;
+    top: 0.5rem;
+    right: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.username{
+    height: 3rem;
+    width: 60%;
+    position: relative;
+    top: 7rem;
+    left: 0.5rem;
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+    color: black;
+}
+
+.password{
+    color: black;
+    height: 3rem;
+    width: 60%;
+    position: relative;
+    top: 8rem;
+    left: 4.5rem;
+    border-radius: 7px;
+    border: none;
+    font-size: 1rem;
+}
+
+.forget{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: grey;
+    position: relative;
+    top: 10.5rem;
+    right: 4rem;
+}
+
+.signin-b{
+    height: 3rem;
+    width: 59.5%;
+    position: relative;
+    top: 11.5rem;
+    left: 0.4rem;
+    border-radius: 7px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+}
+
+.signin-b:hover{
+    cursor: pointer;
+}
+
+.continue{
+    position: relative;
+    top: 13rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.line1{
+    height: 0.05rem;
+    width: 4.2rem;
+    background-color: white;
+    position: absolute;
+    top: 0.75rem;
+    left: 6.5rem;
+}
+
+.or{
+    position: relative;
+    left: 0.5rem;
+    top: 0.1rem;
+}
+
+.line2{
+    height: 0.05rem;
+    width: 4.2rem;
+    background-color: white;
+    position: absolute;
+    top: 0.75rem;
+    right: 5.5rem;
+}
+
+.logins-b{
+    position: relative;
+    display: flex;
+    top: 15rem;
+    left: 4.6rem;
+}
+
+.but1{
+    height: 3rem;
+    width: 4rem;
+    margin-left: 2rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.but1:hover{
+    cursor: pointer;
+}
+
+.google{
+    position: relative;
+    top: 0.2rem;
+    right: 0.1rem;
+    height: 1.5rem;
+}
+
+.facebook{
+    position: relative;
+    top: 0.1rem;
+    height: 1.5rem;
+}
+
+.apple{
+    position: relative;
+    top: 0.1rem;
+    height: 1.5rem;
+}
+
+.noacc{
+    position: relative;
+    display: flex;
+    top: 17rem;
+    left: 6rem;
+    font-size: 0.8rem;
+}
+
+.noacc-p{
+    color: gray;
+}
+
+.noacc-a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 9;
+}
+
+.hidden{
+    display: none;
 }

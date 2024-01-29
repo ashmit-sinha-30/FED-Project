@@ -21,9 +21,41 @@
             <button class="signin text button1">Sign in</button>
         </div>
     </nav>
+
+    <!--Sign In Modal-->
+    <div class="signinmodal hidden">
+        <button class="close-modal">&times;</button>
+        <h1 class="s-head">Hello !</h1>
+        <h1 class="s-head2">Welcome Back</h1>
+        <input type="text" placeholder="    Enter Username" class="username" id="username1">
+        <input type="password" placeholder="    Enter Password" class="password" id="password2">
+        <a href="#" class="forget">Forget Password?</a>
+        <button class="signin-b">Sign In</button>
+        <div class="continue">
+            <div class="line1"></div>
+            <p class="or">Or Continue With</p>
+            <div class="line2"></div>
+        </div>
+        <div class="logins-b">
+            <button class="but1"><img class="google" src="FED/Google-Symbol.png" alt=""></button>
+            <button class="but1"><img class="facebook" src="FED/Facebook_Logo_2023.png" alt=""></button>
+            <button class="but1"><img class="apple" src="FED/Apple-Logo.png" alt=""></button>
+        </div>
+        <div class="noacc">
+            <p class="noacc-p">Don't have an Account ? </p>
+            <a class="noacc-a" href="">Create Account !</a>
+        </div>
+    </div>
+
+    <div class="overlay hidden"></div>
     <main>
         <section class="herosection">
-            <div class="heroimg"></div>
+            <div class="carousel">
+                <div class="heroimg content1 carousel__item--selected"></div>
+                <div class="heroimg content2"></div>
+                <div class="heroimg content3"></div>
+                <div class="heroimg content4"></div>
+            </div>
             <div class="herotext">
                 <h2 class="lets">Let's</h2>
                 <h2 class="connect">Connect</h2>
@@ -64,9 +96,9 @@
         </div>
         <div class="socialf">
             <button class="li circle button1"><i class="fa-brands fa-linkedin"></i></button>
-            <button class="git circle button1"><i class="fa-brands fa-spotify"></i></button>
+            <button class="spotify circle button1"><i class="fa-brands fa-spotify"></i></button>
             <button class="insta circle button1"><i class="fa-brands fa-instagram"></i></button>
-            <button class="tw circle button1"><i class="fa-brands fa-youtube"></i></button>
+            <button class="youtube circle button1"><i class="fa-brands fa-youtube"></i></button>
         </div>
         <div class="linef"></div>
         <div class="copyright">Copyright <i class="fa-regular fa-copyright"></i> @Ashmit Sinha</div>
