@@ -25,23 +25,21 @@ document.addEventListener('keydown',function(e){
     }
 });
 
-/*LOG IN
+/*LOG IN*/
 const login = function(){
     let userName = document.getElementById('username1').value;
-    let passWord = document.getElementById('password1').value;
+    let passWord = document.getElementById('password2').value;
 
-    let websiteUsername = 'ashmit';
-    let websitePassword = 123456;
+    let websiteUsername = 'Ashmit';
+    let websitePassword = 'fedxash123';
 
-    if(username === websiteUsername && passWord === websitePassword){
-        window.location.assign("hello.html");
-        alert("Login Succesfull!!")
+    if(userName == websiteUsername && passWord == websitePassword){
+        window.location.assign("login.html");
+        alert("Login Succesfull 🎉!!")
     }else{
-        alert("Invalid!!")
+        alert("Invalid Credentials 💀!!")
     }
 }
-
-signinBEl.addEventListener('click',login());*/
 
 //Carousel
 
@@ -82,3 +80,31 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
     buttons[0].classList.add("carousel__button--selected");
   });
   
+  //LOG OUT
+  const logout = function(){
+       window.location.assign("index.html");
+       alert("Logout Succesfull 🥲!!")
+  }
+
+const logOutEl = document.querySelector('.signin');
+const logoutModalEl = document.querySelector('.logoutmodal');
+const logoutBEl = document.querySelector('.logout-b');
+
+const logOut = function(){
+    logoutModalEl.classList.remove('hidden');
+    overlayEl.classList.remove('hidden');
+}
+
+const closeModalL = function(){
+    logoutModalEl.classList.add('hidden');
+    overlayEl.classList.add('hidden');
+}
+
+logOutEl.addEventListener('click',logOut);
+
+closeModalEl.addEventListener('click',closeModalL);
+document.addEventListener('keydown',function(e){
+    if(e.key === 'Escape' && !logoutModalEl.classList.contains('hidden')){
+        closeModalL();
+    }
+});

@@ -18,7 +18,7 @@
     left: 5%;
     top: 2rem;
     border-radius: 1rem;
-    border: 0.05px solid rgb(136, 97, 123);
+    border: 0.05px solid rgb(173, 143, 162);
     display: flex;
     align-items: center;
     z-index: 8;
@@ -66,6 +66,13 @@
 }
 
 .signin{
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: rgba(245,87,37,255);
+}
+
+.logout{
     background: transparent;
     border: none;
     font-size: 1.5rem;
@@ -307,7 +314,7 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
-    border:1px solid rgba(255, 255, 255, 0.18);
+    border:1px solid rgba(191, 109, 157, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
@@ -460,6 +467,38 @@
     text-align: center;
 }
 
+.logoutmodal{
+    height: 25rem;
+    width: 30%;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    position: absolute;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.1));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 24rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+}
+
+.logout-b{
+    height: 3rem;
+    width: 59.5%;
+    position: relative;
+    top: 11.5rem;
+    left: 0.4rem;
+    border-radius: 7px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+}
+
 .s-head{
     font-size: 1.5rem;
     font-weight: 500;
@@ -486,26 +525,28 @@
 
 .username{
     height: 3rem;
-    width: 60%;
+    width: 58%;
     position: relative;
     top: 7rem;
-    left: 0.5rem;
+    left: 0.4rem;
     border-radius: 7px;
     border: none;
     font-size: 1rem;
     color: black;
+    padding-left: 7px;
 }
 
 .password{
     color: black;
     height: 3rem;
-    width: 60%;
+    width: 57.5%;
     position: relative;
     top: 8rem;
     left: 4.5rem;
     border-radius: 7px;
     border: none;
     font-size: 1rem;
+    padding-left: 9px;
 }
 
 .forget{
