@@ -8,6 +8,18 @@
 }
 
 
+/*nav{
+    overflow: hidden;
+}
+
+main{
+    overflow: hidden;
+}
+
+footer{
+    overflow: hidden;
+}*/
+
 .navbar{
     position: fixed;
     width: 90%;
@@ -224,7 +236,7 @@
 
 .footer{
     height: 30rem;
-    width: 99.9%;
+    width: 100%;
     background-color: black;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
     backdrop-filter: blur(10px);
@@ -682,3 +694,4 @@
 .hidden{
     display: none;
 }
+

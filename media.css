@@ -1,0 +1,1049 @@
+@media (max-width: 1441px) {
+    
+    .carousel{
+        width: 100%;
+    }
+    
+    .carousel__button{
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .navtool{
+        position: relative;
+        left: 48%;
+    }
+
+    /*herosection2*/
+    .ball1{
+        position: relative;
+        top: -13rem;
+        left: 57.5rem;
+    }
+    
+    .box1{
+        position: relative;
+        top: -22rem;
+        left: 63.5rem;
+    }
+    
+    .ball2{
+        height: 18rem;
+        width: 18rem;
+        position: relative;
+        top: -35rem;
+        left: 72rem;
+    }
+    
+    .box2{
+    
+        position: relative;
+        top: -46rem;
+        left: 20rem;
+        height: 26rem;
+        width: 41rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        z-index: 5;
+        transform: rotate(-8deg);
+        /*background:
+        linear-gradient(
+          rgba(53, 53, 53, 0.8),
+          rgba(40, 40, 40, 0.8)
+        );   
+        border-radius: 1rem;
+        backdrop-filter: blur(10px);*/
+    }
+    
+    .ball3{
+        background-image: url(FED/Ellipse\ 12.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 16rem;
+        width: 16rem;
+        position: relative;
+        top: -59rem;
+        left: 52rem;
+    }
+    
+    .text-box{
+        width: 18rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    
+    .inspire{
+        font-size: 3rem;
+        position: relative;
+        top: -3rem;
+    }
+    
+    .lorem{
+        font-size: 1.25rem;
+        position: relative;
+        top: -1rem;
+    }
+    
+    .lap{
+    
+        background-image: url(FED/left.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 23rem;
+        width: 18rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+
+    .ball4{
+        height: 20rem;
+        width: 20rem;
+        position: relative;
+        top: -50rem;
+        right: -70rem;
+        z-index: 0;
+    }
+
+    .footer{
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    /*Signin/Logout*/
+
+    .signinmodal{
+        height: 39rem;
+        width: 30%;
+    }
+
+    .logoutmodal{
+        height: 25rem;
+        width: 30%;
+    }
+
+    .overlay{
+        height: 161rem;
+    }
+
+}
+
+
+
+@media (max-width: 1025px) {
+    
+    .carousel{
+        width: 100%;
+    }
+    
+    .carousel__button{
+        position: relative;
+        left: 6.5rem;
+    }
+
+    .navtool{
+        position: relative;
+        left: 42%;
+    }
+
+    /*herosection2*/
+
+    .herosec2{
+        height: 70rem;
+    }
+
+    .dive{
+        font-size: 7rem;
+    }
+
+    .endless{
+        font-size: 2.8rem;
+        margin-top: -4rem;
+    }
+
+    .ball1{
+        height: 7rem;
+        width: 7rem;
+        position: relative;
+        top: -10rem;
+        left: 42.5rem;
+    }
+
+    .box1{
+        height: 20rem;
+        width: 14rem;
+        position: relative;
+        top: -17rem;
+        left: 46.5rem;
+    }
+
+    .ball2{
+        height: 10rem;
+        width: 10rem;
+        position: relative;
+        left: 53.75rem;
+        top: -25rem;
+    }
+
+    .box2{
+        position: relative;
+        top: -28rem;
+        left: 10rem;
+        height: 22rem;
+        width: 36rem;
+    }
+
+    .text-box{
+        width: 18rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .inspire{
+        font-size: 2.75rem;
+        position: relative;
+        top: -2rem;
+    }
+
+    .lorem{
+        font-size: 1.25rem;
+        position: relative;
+        top: -1rem;
+    }
+
+    .lap{
+        height: 19rem;
+        width: 14rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+
+    .ball3{
+        height: 14rem;
+        width: 14rem;
+        position: relative;
+        top: -40rem;
+        left: 38rem;
+    }
+
+    .ball4{
+        height: 18rem;
+        width: 18rem;
+        position: relative;
+        top: -33rem;
+        left: 45.5rem;
+        z-index: 0;
+    }
+
+    .footer{
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    /*Signin/Logout*/
+
+    .signinmodal{
+        height: 39rem;
+        width: 45%;
+    }
+
+    .logoutmodal{
+        height: 25rem;
+        width: 45%;
+    }
+
+    .overlay{
+        height: 146rem;
+    }
+
+}
+
+
+@media (max-width: 769px) {
+    
+    .carousel{
+        width: 100%;
+    }
+    
+    .carousel__button{
+        position: relative;
+        left: 9.5rem;
+    }
+
+    .navtool{
+        position: relative;
+        left: 36%;
+    }
+
+    .image{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .fed{
+        font-size: 2.75rem;
+    }
+
+    .lets{
+        font-size: 4.5rem;
+    }
+
+    .connect{
+        font-size: 4.5rem;
+    }
+
+    .you{
+        font-size: 2rem ;
+        position: absolute;
+    }
+
+    /*herosection2*/
+
+    .herosec2{
+        height: 70rem;
+    }
+
+    .dive{
+        font-size: 6.5rem;
+    }
+
+    .endless{
+        font-size: 2.5rem;
+        margin-top: -4rem;
+    }
+
+    .ball1{
+        height: 6rem;
+        width: 6rem;
+        position: relative;
+        top: -8rem;
+        left: 26.5rem;
+    }
+
+    .box1{
+        height: 18rem;
+        width: 12rem;
+        position: relative;
+        top: -14rem;
+        left: 30.5rem;
+    }
+
+    .ball2{
+        height: 8.5rem;
+        width: 8.5rem;
+        position: relative;
+        left: 38.5rem;
+        top: -22rem;
+    }
+
+    .box2{
+        position: relative;
+        top: -16rem;
+        left: 8rem;
+        height: 20rem;
+        width: 34rem;
+    }
+
+    .text-box{
+        width: 18rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .inspire{
+        font-size: 2.7rem;
+        position: relative;
+        top: -1rem;
+    }
+
+    .lorem{
+        font-size: 1.15rem;
+        position: relative;
+        top: -0.5rem;
+    }
+
+    .lap{
+        height: 17.75rem;
+        width: 13rem;
+        border-radius: 1rem;
+        margin-left: 1.15rem;
+    }
+
+    .ball3{
+        height: 10rem;
+        width: 10rem;
+        position: relative;
+        top: -24rem;
+        left: 36rem;
+    }
+
+    .ball4{
+        height: 14rem;
+        width: 14rem;
+        position: relative;
+        top: -20rem;
+        left: 33.75rem;
+        z-index: 0;
+    }
+
+    .footer{
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    /*Signin/Logout*/
+
+    .signinmodal{
+        height: 39rem;
+        width: 60%;
+    }
+
+    .logoutmodal{
+        height: 25rem;
+        width: 60%;
+    }
+
+    .overlay{
+        height: 146rem;
+    }
+
+}
+
+@media (max-width: 426px) {
+    
+    .navtool{
+        position: relative;
+        left: 16%;
+    }
+
+    .text{
+        font-size: 0.75rem;
+    }
+
+    .image{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .fed{
+        font-size: 2.75rem;
+    }
+
+    /*herosec*/
+    .herotext{
+        height: 40.5rem;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .lets{
+        font-size: 4.5rem;
+    }
+
+    .connect{
+        font-size: 4.5rem;
+    }
+
+    .you{
+        font-size: 2rem ;
+        position: absolute;
+    }
+
+    /*carousel*/
+    .heroimg{
+        top: 40.5rem;
+        left: 0;
+        height: 40.5rem;
+        width: 100%;
+    }
+
+    .carousel{
+        width: 100%;
+        top: 40.5rem;
+    }
+    
+    .carousel__button{
+        position: relative;
+        left: 13rem;
+    }
+    
+
+
+
+    /*herosection2*/
+
+    .herosec2{
+        position: absolute;
+        top: 81rem;
+        height: 70rem;
+    }
+
+    .dive{
+        font-size: 6.5rem;
+    }
+
+    .endless{
+        font-size: 2.5rem;
+        margin-top: -4rem;
+    }
+
+    .ball1{
+        height: 5rem;
+        width: 5rem;
+        position: relative;
+        top: -10rem;
+        left: 6.5rem;
+    }
+
+    .box1{
+        height: 14rem;
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 9.5rem;
+    }
+
+    .ball2{
+        height: 8.5rem;
+        width: 8.5rem;
+        position: relative;
+        left: 16rem;
+        top: -22rem;
+    }
+
+    .box2{
+        position: relative;
+        top: -16rem;
+        left: 3rem;
+        height: 14rem;
+        width: 22rem;
+    }
+
+    .text-box{
+        width: 8rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .inspire{
+        font-size: 1rem;
+        position: relative;
+        top: -1rem;
+    }
+
+    .lorem{
+        font-size: 0.6rem;
+        position: relative;
+        top: -0.5rem;
+    }
+
+    .lap{
+        height: 12rem;
+        width: 13rem;
+        border-radius: 1rem;
+        margin-left: 1rem;
+    }
+
+    .ball3{
+        height: 8rem;
+        width: 8rem;
+        position: relative;
+        top: -20rem;
+        left: 18rem;
+    }
+
+    .ball4{
+        height: 10rem;
+        width: 10rem;
+        position: relative;
+        top: -18rem;
+        left: 1.5rem;
+        z-index: 0;
+    }
+
+    .copyright{
+        position: absolute;
+        bottom: 4rem;
+        text-align: center;
+    }
+
+    .footer{
+        position: absolute;
+        top: 151rem;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    /*Signin/Logout*/
+
+    .signinmodal{
+        height: 39rem;
+        width: 60%;
+    }
+
+    .logoutmodal{
+        height: 22rem;
+        width: 70%;
+    }
+
+    .s-head{
+        font-size: 1.3rem;
+    }
+    
+    .s-head2{
+        font-size: 1.25rem;
+    }
+    
+    .close-modal{
+        font-size: 2.75rem;
+    }
+    
+    .username{
+        height: 3rem;
+        width: 58%;
+        left: 0.2rem;
+        font-size: 0.6rem;
+    }
+    
+    .password{
+        height: 3rem;
+        width: 58%;
+        left: 3rem;
+        font-size: 0.6rem;
+    }
+    
+    .forget{
+        text-decoration: none;
+        font-size: 0.6rem;
+        color: grey;
+        position: relative;
+        top: 11rem;
+        right: 0.5rem;
+    }
+    
+    .signin-b{
+        left: 0.2rem;
+        height: 3rem;
+        width: 60%;
+    }
+    
+    .signin-b:hover{
+        cursor: pointer;
+    }
+    
+    .continue{
+        position: relative;
+        top: 13rem;
+        display: flex;
+        justify-content: center;
+        font-size: 0.6rem;
+    }
+    
+    .line1{
+        height: 0.05rem;
+        width: 1rem;
+        background-color: white;
+        position: absolute;
+        top: 0.6rem;
+        left: 4.5rem;
+    }
+    
+    .or{
+        position: relative;
+        left: 0.5rem;
+        top: 0.1rem;
+    }
+    
+    .line2{
+        width: 1rem;
+        position: absolute;
+        top: 0.6rem;
+        right: 3.5rem;
+    }
+    
+    .logins-b{
+        position: relative;
+        display: flex;
+        top: 15rem;
+        left: 4.6rem;
+    }
+    
+
+    .but1{
+        height: 2rem;
+        width: 2.5rem;
+        margin-inline-start: -1rem;
+        margin-inline-end: 2rem;
+    }
+    
+    .but1:hover{
+        cursor: pointer;
+    }
+    
+    .google{
+        position: relative;
+        top: 0.2rem;
+        right: 0.1rem;
+        height: 1.5rem;
+    }
+    
+    .facebook{
+        position: relative;
+        top: 0.1rem;
+        height: 1.5rem;
+    }
+    
+    .apple{
+        position: relative;
+        top: 0.1rem;
+        height: 1.5rem;
+    }
+    
+    .noacc{
+        position: relative;
+        display: flex;
+        top: 17rem;
+        left: 1.5rem;
+        font-size: 0.6rem;
+    }
+    
+    .noacc-p{
+        color: gray;
+    }
+    
+    .noacc-a{
+        margin-left: 0.5rem;
+        text-decoration: none;
+    }
+
+    .overlay{
+        height: 181rem;
+    }
+
+
+}
+
+@media (max-width: 376px) {
+    
+    .navtool{
+        position: relative;
+        left: 16%;
+    }
+
+    .text{
+        font-size: 0.75rem;
+    }
+
+    .image{
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .fed{
+        font-size: 2.75rem;
+    }
+
+    /*herosec*/
+    .herotext{
+        height: 40.5rem;
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .lets{
+        font-size: 4.5rem;
+        left: 2rem;
+    }
+
+    .connect{
+        font-size: 4.5rem;
+        left: 2rem;
+    }
+
+    .you{
+        font-size: 2rem ;
+        position: absolute;
+        left: 2rem;
+    }
+
+    /*carousel*/
+    .heroimg{
+        top: 40.5rem;
+        left: 0;
+        height: 40.5rem;
+        width: 100%;
+    }
+
+    .carousel{
+        width: 100%;
+        top: 40.5rem;
+    }
+    
+    .carousel__button{
+        position: relative;
+        left: 14rem;
+    }
+    
+
+
+
+    /*herosection2*/
+
+    .herosec2{
+        position: absolute;
+        top: 81rem;
+        height: 70rem;
+    }
+
+    .dive{
+        font-size: 6.5rem;
+    }
+
+    .endless{
+        font-size: 2.5rem;
+        margin-top: -4rem;
+    }
+
+    .ball1{
+        height: 5rem;
+        width: 5rem;
+        position: relative;
+        top: -10rem;
+        left: 6.5rem;
+    }
+
+    .box1{
+        height: 14rem;
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 9.5rem;
+    }
+
+    .ball2{
+        height: 8rem;
+        width: 8rem;
+        position: relative;
+        left: 15rem;
+        top: -21rem;
+    }
+
+    .box2{
+        position: relative;
+        top: -16rem;
+        left: 1rem;
+        height: 12.75rem;
+        width: 19rem;
+    }
+
+    .text-box{
+        width: 8rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .inspire{
+        font-size: 1rem;
+        position: relative;
+        top: -1rem;
+    }
+
+    .lorem{
+        font-size: 0.5rem;
+        position: relative;
+        top: -0.5rem;
+    }
+
+    .lap{
+        height: 11.25rem;
+        width: 11rem;
+        border-radius: 1rem;
+        margin-left: 0.75rem;
+    }
+
+    .ball3{
+        height: 7rem;
+        width: 7rem;
+        position: relative;
+        top: -22rem;
+        left: 16rem;
+    }
+
+    .ball4{
+        height: 10rem;
+        width: 10rem;
+        position: relative;
+        top: -15rem;
+        left: 1.5rem;
+        z-index: 0;
+    }
+
+    .copyright{
+        position: absolute;
+        bottom: 4rem;
+        text-align: center;
+    }
+
+    .footer{
+        position: absolute;
+        top: 151rem;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+    }
+
+    /*Signin/Logout*/
+
+    .signinmodal{
+        height: 39rem;
+        width: 60%;
+    }
+
+    .logoutmodal{
+        height: 22rem;
+        width: 70%;
+    }
+
+    .s-head{
+        font-size: 1.3rem;
+    }
+    
+    .s-head2{
+        font-size: 1.25rem;
+    }
+    
+    .close-modal{
+        font-size: 2.75rem;
+    }
+    
+    .username{
+        height: 3rem;
+        width: 58%;
+        left: 0.2rem;
+        font-size: 0.6rem;
+    }
+    
+    .password{
+        height: 3rem;
+        width: 58%;
+        left: 2.6rem;
+        font-size: 0.6rem;
+    }
+    
+    .forget{
+        text-decoration: none;
+        font-size: 0.5rem;
+        color: grey;
+        position: relative;
+        top: 11rem;
+        right: 0.5rem;
+    }
+    
+    .signin-b{
+        left: 0.2rem;
+        height: 3rem;
+        width: 60%;
+    }
+    
+    .signin-b:hover{
+        cursor: pointer;
+    }
+    
+    .continue{
+        position: relative;
+        top: 13rem;
+        display: flex;
+        justify-content: center;
+        font-size: 0.6rem;
+    }
+    
+    .line1{
+        height: 0.05rem;
+        width: 1rem;
+        background-color: white;
+        position: absolute;
+        top: 0.6rem;
+        left: 4.5rem;
+    }
+    
+    .or{
+        position: relative;
+        left: 0.5rem;
+        top: 0.1rem;
+    }
+    
+    .line2{
+        width: 1rem;
+        position: absolute;
+        top: 0.6rem;
+        right: 3.5rem;
+    }
+    
+    .logins-b{
+        position: relative;
+        display: flex;
+        top: 15rem;
+        left: 4.6rem;
+    }
+    
+
+    .but1{
+        height: 2rem;
+        width: 2.5rem;
+        margin-inline-start: -2rem;
+        margin-inline-end: 3rem;
+    }
+    
+    .but1:hover{
+        cursor: pointer;
+    }
+    
+    .google{
+        position: relative;
+        top: 0.2rem;
+        right: 0.1rem;
+        height: 1.5rem;
+    }
+    
+    .facebook{
+        position: relative;
+        top: 0.1rem;
+        height: 1.5rem;
+    }
+    
+    .apple{
+        position: relative;
+        top: 0.1rem;
+        height: 1.5rem;
+    }
+    
+    .noacc{
+        position: relative;
+        display: flex;
+        top: 17rem;
+        left: 0.5rem;
+        font-size: 0.6rem;
+    }
+    
+    .noacc-p{
+        color: gray;
+    }
+    
+    .noacc-a{
+        margin-left: 0.5rem;
+        text-decoration: none;
+    }
+
+    .overlay{
+        height: 181rem;
+    }
+
+
+}
