@@ -684,7 +684,7 @@ footer{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 161rem;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(3px);
@@ -695,3 +695,15 @@ footer{
     display: none;
 }
 
+.icon{
+    font-size: 2.25rem;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+}
+
+#check{
+    position: absolute;
+    right: 2rem;
+    display: none;
+}
